@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=PT+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'PT Serif', sans-serif;
+    font-weight: 300;
+    color: #d3d3d3;
+    background-color: black;
+}
+
+/* headings  */
+
+header a h1 {
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+    letter-spacing: 2px;
+}
+
+/* navigation links */
+
+nav {
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 250;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+#navi li {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#navi a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navi a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
