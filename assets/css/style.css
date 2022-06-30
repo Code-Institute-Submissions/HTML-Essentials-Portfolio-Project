@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=PT+Serif:ital@1&display=swap');
 
-/* * {
-    margin: 0;
-    padding: 0;
-    border: none;
-} */
-
 body {
     font-family: 'PT Serif', sans-serif;
     font-weight: 300;
     color: #d3d3d3;
     background-color: #5e4066;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 /* headings  */
@@ -25,7 +22,6 @@ header a h1 {
     font-size: 250%;
     letter-spacing: 2px;
     color: #36454f;
-    text-decoration: none;
     /* background: url('../images/Gobekli-Tepe-banner.jpg') no-repeat center center; */
 }
 
@@ -41,7 +37,8 @@ nav {
 #navi li {
     float: right;
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    padding: 5px;
 }
 
 #navi a {
@@ -59,4 +56,52 @@ nav {
 
 /* banner image  */
 
+/* home page text content  */
+#text-upper {
+    width: 300px;
+    height: 450px;
+    padding: 12px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    color: #36454f;
+    background-color: #c2b280;
+    
+}
 
+#text-lower {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    color: #36454f;
+    background-color: #c2b280;
+}
+
+/* homepage video content */
+.tepe-vid-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .panel {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  iframe {
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    color: #36454f;
+    background-color: #c2b280;
+  }
+
+  #vid-breaker {
+    width: 5px;
+    color: #d3d3d3;
+  }
