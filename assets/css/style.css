@@ -10,6 +10,10 @@ body {
     border: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* header styling  */
 header a h1 {
     font-family: 'League Gothic', sans-serif;
@@ -238,36 +242,43 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #ziggi {
     background-image: url(../images/Ziggurat-of-Ur.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #hypo {
     background-image: url(../images/Hal-Saflieni-Hypogeum.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #tarxien {
     background-image: url(../images/Tarxien-Temples.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #mnajdra {
     background-image: url(../images/Mnajdra.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #hagar {
     background-image: url(../images/Hagar-Qim.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #ggantija {
     background-image: url(../images/Ggantija.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #gobek {
     background-image: url(../images/Gobekli-Tepe-timeline.jpg);
     background-repeat: no-repeat;
@@ -279,15 +290,14 @@ footer {
     width: 60%;
     height: 400px;
     color: #0a0a0a;
-    background-color: #d3d3d3;
     border: 4px solid #36454f;
     margin: 0 auto;
     padding: 5%;
-    opacity: 1;
-    /* top: 15px; */
-    /* border-radius: 100%; */
-    text-decoration: none;
+    /* opacity: 1; */
+    top: 15px;
+    /* text-decoration: none; */
     color: transparent;
+    border-radius: 25px;
 }
 
 #book-links {
@@ -299,6 +309,13 @@ footer {
     background-image: url(../images/oldest.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+}
+
+#oldest:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
 }
 
 #magicians {
@@ -307,19 +324,58 @@ footer {
     background-position: center;
 }
 
+#magicians:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
 #genesis {
     background-image: url(../images/genesis2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
+#genesis:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
 #enigma {
-    background-image: url(../images/enigma.jpg);
+    background: url(../images/enigma.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.reading-content:hover {
-    opacity: 0.5;
-    color: white;
+
+#enigma:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
+.reading-content h2 {
+    text-transform: uppercase;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.reading-content h4 {
+    text-transform: uppercase;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 50;
+    font-size: large;
+}
+
+.reading-content p {
+    text-transform: none;
+    font-weight: 50;
+    font-size: x-small;
+}
+
+.amazon {
+    text-decoration: dotted;
+    font-size: xx-large;
 }
