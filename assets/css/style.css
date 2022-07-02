@@ -273,3 +273,53 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* styling for book links */
+.reading-content {
+    width: 60%;
+    height: 400px;
+    color: #0a0a0a;
+    background-color: #d3d3d3;
+    border: 4px solid #36454f;
+    margin: 0 auto;
+    padding: 5%;
+    opacity: 1;
+    /* top: 15px; */
+    /* border-radius: 100%; */
+    text-decoration: none;
+    color: transparent;
+}
+
+#book-links {
+    display: inline-block;
+    column-count: 4;
+}
+
+#oldest {
+    background-image: url(../images/oldest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#magicians {
+    background-image: url(../images/magicians.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#genesis {
+    background-image: url(../images/genesis2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#enigma {
+    background-image: url(../images/enigma.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.reading-content:hover {
+    opacity: 0.5;
+    color: white;
+}
