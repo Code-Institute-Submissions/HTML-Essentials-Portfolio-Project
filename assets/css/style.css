@@ -230,11 +230,30 @@ footer {
     border-radius: 6px;
     border-style: groove;
     opacity: 0.5;
+    height: 300px;
 }
 
 .timeline-content:hover {
     opacity: 1;
     color: white;
+}
+
+.timeline-text-content {
+    padding: 20px 30px;
+    position: relative;
+    height: 30px;
+    width: 300px;
+}
+
+.text-content-left {
+    float: right;
+    padding-right: 15%;
+
+}
+
+.text-content-right {
+    float: left;
+    padding-left: 35%;
 }
 
 /* timeline images */
@@ -302,6 +321,7 @@ footer {
 #book-links {
     display: inline-block;
     column-count: 4;
+
 }
 
 /* images for books */
@@ -350,6 +370,58 @@ footer {
 
 
 #enigma:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
+#murat {
+    background: url(../images/murat.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#murat:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
+#origin {
+    background: url(../images/origin.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#origin:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
+#kokoska {
+    background: url(../images/bigbook.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#kokoska:hover {
+    background: #0a0a0a;
+    text-decoration: solid;
+    color: #d3d3d3;
+}
+
+#visitors {
+    background: url(../images/cassandra.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#visitors:hover {
     background: #0a0a0a;
     text-decoration: solid;
     color: #d3d3d3;
