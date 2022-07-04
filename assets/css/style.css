@@ -455,3 +455,132 @@ p.amazon {
     font-weight: 50;
     text-decoration: none;
 }
+
+/* media querie: timeline on screens less than 1200px */
+@media screen and (max-width: 1200px) {
+    .timeline::after {
+        left: 70px;
+    }
+
+    .panel {
+        width: 75%;
+        padding-left: 50px;
+    }
+
+    .panel::before {
+        left: 37.5px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: -1px;
+    }
+
+    .right {
+        left: 42.5px;
+    }
+
+
+    .left {
+        left: 42.5px;
+    }
+
+    .text-content-left {
+        float: left;
+        margin-left: 90px;
+    }
+
+    .text-content-right {
+        float: left;
+        margin-left: -265px;
+    }
+}
+
+/* media querie: timeline on screens less than 950px */
+@media screen and (max-width: 950px) {
+    .timeline::after {
+        left: 70px;
+    }
+
+    .panel {
+        width: 80%;
+        padding-left: 52px;
+    }
+
+    .panel::before {
+        left: 37.5px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: -1px;
+    }
+
+    .right {
+        left: 42.5px;
+    }
+
+
+    .left {
+        left: 42.5px;
+    }
+
+    .text-content-left {
+        float: left;
+        margin-left: 90px;
+    }
+
+    .text-content-right {
+        float: left;
+        margin-left: -175px;
+    }
+}
+
+/* media querie: timeline on screens less than 600px */
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 70px;
+    }
+
+    .panel {
+        width: 115%;
+        padding-left: 50px;
+    }
+
+    .panel::before {
+        left: 37.5px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: -1px;
+    }
+
+    .right {
+        left: 42.5px;
+    }
+
+
+    .left {
+        left: 42.5px;
+    }
+
+    .text-content-left {
+        float: left;
+        margin-left: 90px;
+    }
+
+    .text-content-right {
+        float: left;
+        margin-left: -24px;
+    }
+}
