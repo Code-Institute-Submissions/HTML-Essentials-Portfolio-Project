@@ -318,10 +318,14 @@ footer {
     border-radius: 25px;
 }
 
-#book-links {
-    display: inline-block;
+#book-links-one {
+    display: inline-flexbox;
     column-count: 4;
+}
 
+#book-links-two {
+    display: inline-flexbox;
+    column-count: 4;
 }
 
 /* images for books */
@@ -456,6 +460,7 @@ p.amazon {
     text-decoration: none;
 }
 
+
 /* media querie: timeline on screens less than 1200px */
 @media screen and (max-width: 1200px) {
     .timeline::after {
@@ -549,8 +554,10 @@ p.amazon {
     }
 
     .panel {
-        width: 115%;
+        width: 90%;
+        height: 80%;
         padding-left: 50px;
+        margin-top: 35px;
     }
 
     .panel::before {
@@ -577,10 +584,61 @@ p.amazon {
     .text-content-left {
         float: left;
         margin-left: 90px;
+        font-size: small;
     }
 
     .text-content-right {
         float: left;
         margin-left: -24px;
+        font-size: small;
+    }
+}
+
+
+/* media querie: Read more book links on screens less than 1200px */
+@media screen and (max-width: 1200px) {
+    .reading-content {
+        width: 85%;
+        height: 400px;
+    }
+}
+
+/* media querie: Read more book links on screens less than 950px */
+@media screen and (max-width: 950px) {
+    .reading-content {
+        width: 75%;
+        height: 450px;
+    }
+
+    #book-links-one {
+        display: inline-flexbox;
+        column-count: 2;
+    }
+
+    #book-links-two {
+        display: inline-flexbox;
+        column-count: 2;
+    }
+}
+
+/* media querie: Read more book links on screens less than 600px */
+@media screen and (max-width: 600px) {
+    .reading-content {
+        width: 70%;
+        height: 450px;
+        overflow: hidden;
+        
+    }
+
+    #book-links-one {
+        display: inline-block;
+        column-count: 1;
+        margin: 0px;
+    }
+
+    #book-links-two {
+        display: inline-block;
+        column-count: 1;
+        margin: 0px;
     }
 }
