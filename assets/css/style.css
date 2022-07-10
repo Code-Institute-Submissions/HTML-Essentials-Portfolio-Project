@@ -10,6 +10,16 @@ body {
     border: none;
 }
 
+#articles {
+    background-image: url(../images/backdrop1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#index {
+}
+
 a {
     text-decoration: none;
 }
@@ -141,6 +151,13 @@ footer {
 /* timeline styling */
 #temple-timeline {
     background-color: #0a0a0a;
+    background-image: url(../images/backdrop2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: dotted;
+    border-color: #d3d3d3;
+    border-width: 1px;
 }
 
 .timeline {
@@ -627,7 +644,7 @@ p.amazon {
         width: 70%;
         height: 450px;
         overflow: hidden;
-        
+
     }
 
     #book-links-one {
