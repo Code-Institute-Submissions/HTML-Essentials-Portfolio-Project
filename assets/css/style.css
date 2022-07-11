@@ -17,11 +17,48 @@ body {
     background-size: cover;
 }
 
-#index {
-}
-
 a {
     text-decoration: none;
+}
+
+.checkme {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncall {
+    display: inline-block;
+    color: #d3d3d3;
+    font-family: 'League Gothic', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.actioncall:hover {
+    color: #ffd700;
+    /* border-bottom: 1px solid #ffd700; */
+}
+
+.checkme {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncall {
+    display: inline-block;
+    color: #d3d3d3;
+    font-family: 'League Gothic', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.actioncall:hover {
+    color: #ffd700;
+    /* border-bottom: 1px solid #ffd700; */
 }
 
 /* header styling  */
