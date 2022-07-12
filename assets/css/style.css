@@ -10,6 +10,15 @@ body {
     border: none;
 }
 
+#errorbox {
+    justify-content: center;
+    align-items: center;
+}
+
+#errormessage {
+    text-align: center;
+}
+
 #articles {
     background-image: url(../images/backdrop1.jpg);
     background-repeat: no-repeat;
