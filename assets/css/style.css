@@ -385,33 +385,29 @@ footer {
 
 /* styling for book links */
 .reading-content {
-    width: 60%;
-    height: 400px;
-    color: #0a0a0a;
-    border: 2px solid #36454f;
+    width: 231px;
+    height: 346px;
     margin: 0 auto;
     padding: 5%;
-    top: 15px;
     color: transparent;
-    border-radius: 25px;
 }
 
 #book-links-one {
-    display: inline-flexbox;
+    margin: 0 auto;
+    display: block;
     column-count: 4;
 }
 
 #book-links-two {
-    display: inline-flexbox;
+    display: block;
     column-count: 4;
 }
 
 /* images for books */
 #oldest {
-    background-image: url(../images/oldest.jpg);
+    background-image: url(../images/oldestr.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 #oldest:hover {
@@ -421,7 +417,7 @@ footer {
 }
 
 #magicians {
-    background-image: url(../images/magicians.jpg);
+    background-image: url(../images/magiciansr.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -433,7 +429,7 @@ footer {
 }
 
 #genesis {
-    background-image: url(../images/genesis2.jpg);
+    background-image: url(../images/genesis2r.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -445,7 +441,7 @@ footer {
 }
 
 #enigma {
-    background: url(../images/enigma.jpg);
+    background: url(../images/enigmar.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -458,7 +454,7 @@ footer {
 }
 
 #murat {
-    background: url(../images/murat.jpg);
+    background: url(../images/muratr.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -471,7 +467,7 @@ footer {
 }
 
 #origin {
-    background: url(../images/origin.jpg);
+    background: url(../images/originr.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -484,7 +480,7 @@ footer {
 }
 
 #kokoska {
-    background: url(../images/bigbook.jpg);
+    background: url(../images/bigbookr.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -497,7 +493,7 @@ footer {
 }
 
 #visitors {
-    background: url(../images/cassandra.jpg);
+    background: url(../images/cassandrar.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -934,34 +930,20 @@ p.amazon {
     }
 }
 
-/* media querie: Read more book links on screens less than 1200px */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .reading-content {
-        width: 85%;
-        height: 400px;
-    }
-}
 
-/* media querie: Read more book links on screens less than 950px */
-@media screen and (max-width: 950px) {
-    .reading-content {
-        width: 75%;
-        height: 450px;
-    }
-
+/* media querie: articles.html on screens between 768px and 1024px wide (tablets, ipads) */
+@media (min-width: 768px) and (max-width: 935px) {
     #book-links-one {
-        display: inline-flexbox;
         column-count: 2;
     }
 
     #book-links-two {
-        display: inline-flexbox;
         column-count: 2;
     }
 }
 
-/* media querie: Read more book links on screens less than 600px */
-@media screen and (max-width: 600px) {
+/* media querie: articles.html on screens between 481px and 767px wide (tablets, mobiles in landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
     .reading-content {
         width: 70%;
         height: 450px;
@@ -970,13 +952,31 @@ p.amazon {
     }
 
     #book-links-one {
-        display: inline-block;
         column-count: 1;
         margin: 0px;
     }
 
     #book-links-two {
-        display: inline-block;
+        column-count: 1;
+        margin: 0px;
+    }
+}
+
+/* media querie: articles.html on screens between 481px and 767px wide (tablets, mobiles in landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .reading-content {
+        width: 70%;
+        height: 450px;
+        overflow: hidden;
+
+    }
+
+    #book-links-one {
+        column-count: 1;
+        margin: 0px;
+    }
+
+    #book-links-two {
         column-count: 1;
         margin: 0px;
     }
@@ -984,8 +984,27 @@ p.amazon {
 
 /* media querie: timeline on screens between 320px and 480px wide (smartphones, mobiles) */
 @media (min-width: 320px) and (max-width: 480px) {
+    .reading-content {
+        width: 70%;
+        height: 450px;
+        overflow: hidden;
+
+    }
+
+    #book-links-one {
+        column-count: 1;
+        margin: 0px;
+    }
+
+    #book-links-two {
+        column-count: 1;
+        margin: 0px;
+    }
+}
+
+/* media querie: error 404 on screens between 320px and 480px wide (smartphones, mobiles) */
+@media (min-width: 320px) and (max-width: 480px) {
     #oops {
         font-size: 250px;
     }
-}
 }
