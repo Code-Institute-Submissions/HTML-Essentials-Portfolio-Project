@@ -15,14 +15,25 @@ body {
     align-items: center;
 }
 
-#errormessage {
+.errormessage {
+    font-size: x-large;
     text-align: center;
+    font-family: 'League Gothic', sans-serif;
 }
 
-#oops [
-    font-size: xx-large;
+#oops {
+    text-align: center;
+    font-size: 400px;
     color: #d3d3d3;
-]
+}
+
+#backhome {
+    color: #d3d3d3;
+}
+
+#backhome:hover {
+    color: #ffd700;
+}
 
 #articles {
     background-image: url(../images/backdrop1.jpg);
@@ -969,4 +980,12 @@ p.amazon {
         column-count: 1;
         margin: 0px;
     }
+}
+
+/* media querie: timeline on screens between 320px and 480px wide (smartphones, mobiles) */
+@media (min-width: 320px) and (max-width: 480px) {
+    #oops {
+        font-size: 250px;
+    }
+}
 }
