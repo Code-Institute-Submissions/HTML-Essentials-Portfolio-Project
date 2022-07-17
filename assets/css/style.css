@@ -19,6 +19,11 @@ body {
     text-align: center;
 }
 
+#oops [
+    font-size: xx-large;
+    color: #d3d3d3;
+]
+
 #articles {
     background-image: url(../images/backdrop1.jpg);
     background-repeat: no-repeat;
