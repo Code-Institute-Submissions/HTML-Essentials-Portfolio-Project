@@ -15,28 +15,28 @@ Below is a detailed explanantion of the various features built into the website,
   - The naviagtion bar appears on all three pages, the styling is identical across the site to provide familiarity to the user. The title of the website itself is a link to the landing page, a common choice that helps users find their way when lost. The bar is repsonsive, the page you are hovering over shall highlight a bright shade of yellow and appear underlined.
   - This feature allows users to comfortably and quickly navigate across the various pages, no matter their device type or current location. 
 
-![Navigation Bar and page title](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Navigation Bar and page title](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/navbar.png)
 
 - __Landing page video and text content__
 
   - Explanation
   - Value
 
-![Landing page video Content](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Landing page video Content](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/landvidcont.png)
 
 - __Additional information__
 
   - Explanation
   - Value
 
-![Additonal reading](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Additonal reading](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/additional.png)
 
 - __Gallery of images__
 
   - Explanation
   - Value
   
-![Image gallery](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Image gallery](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/gallery.png)
 
 - __The Footer__ 
 
@@ -50,14 +50,14 @@ Below is a detailed explanantion of the various features built into the website,
   - The timeline shows in order, images of the 8 oldest temples aside from Gobekli Tepe. The images will 'pop' when the viewer hovers their cursor over the image. This switch in appearance may prompt the viewer to click the image, opening a second window to the temples relevant wikipedia page for additonal reading. 
   - Users may find this area valuable should they wish to apply further context to their learning, or if the topic of ancient temples in general is of particular interest to them.
 
-![Timeline](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Timeline](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/timline.png)
 
 - __Articles__
 
   - Explanation
   - Value
 
-![Articles.html book section](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Articles.html book section](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/articles.png)
 
 ### Potential features to Implement
 
