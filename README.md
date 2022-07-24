@@ -22,14 +22,14 @@ Below is a detailed explanantion of the various features built into the website,
   - Explanation
   - Value
 
-![Landing page video Content](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/landvidcont.png)
+![Landing page video Content](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/landingcontent.png)
 
-- __Additional information__
+- __First Call to Action__
 
   - Explanation
   - Value
 
-![Additonal reading](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/additional.png)
+![Additonal reading](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/ctaone.png)
 
 - __Gallery of images__
 
@@ -54,14 +54,14 @@ Below is a detailed explanantion of the various features built into the website,
 
 - __Articles__
 
-  - Explanation
-  - Value
+  - This page features a grid of 8 tablets, each of these tablets features the image of a particular book relevant to Gobekli Tepe. Hovering the mouse over the image will make a slightly larger black box appear, with text content giving information on the book and a reference to purchasing the book online. Clicking the tablets will open a new browser window on an online store, such as amazon, where the user can purchase the book. 
+  - Users may find this are valuable having viewed the content on the landing page and finding the topic of interest. Users can reach this page from the landing page, either through the navigation or through the 'Call to Action' button described above. This page allows users to find additional reading on the subject of Gobekli Tepe and enables the purchase of goods. 
 
 ![Articles.html book section](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/articles.png)
 
 ### Potential features to Implement
 
-- Additional pages with detailed information and video relevant to the eight temples featured on the timeline. Linke to thos instead of pulling away from the site to wikipedia. 
+- Additional pages with detailed information and video relevant to the eight temples featured on the timeline. Link to those instead of pulling away from the site to wikipedia. 
 - An interactive gallery/slideshow themed on each temple, linked to only via that temples relevant page. Or via a gallery dashboard page like a content hosting sight.
 -Intergration with online stores to streamline the purchase process for the books featured on articles.html.
 
@@ -85,28 +85,26 @@ Difficulty making text bold whilst keeping the background image's opacity.
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://whlw27.github.io/HTML-Essentials-Portfolio-Project/
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Credits  
 
 ### Content 
 
-- The text for the Home page was taken from 
+- The text for the Home page was taken from https://www.smithsonianmag.com/history/gobekli-tepe-the-worlds-first-temple-83613665/ and https://whc.unesco.org/en/list/1572/
 - The video content on the homepage is from youtube via the National History channel https://www.youtube.com/watch?v=A3aBN2QGn6w
-- Guidance on how to build the timeline structure
+- Guidance on how to build the timeline structure https://www.w3schools.com/howto/howto_css_timeline.asp
+- Guidance on the :after Pusedo class was found https://developer.mozilla.org/en-US/docs/Web/CSS/::after
 - The icons across the website were taken from [Font Awesome](https://fontawesome.com/)
+- The website fonts are courtesy of Google Fonts https://fonts.google.com/about
 
 ### Media
 
 - The images used for the landing page gallery were taken from wikimedia - https://commons.wikimedia.org/wiki/Category:G%C3%B6bekli_Tepe
 - The images used for the timeline were taken from wikimedia, found by searching the full name of the temple - https://commons.wikimedia.org/
-- The images used for the background of the timeline and the articles page were taken from 
+- The images used for the background of the timeline and the articles page were taken from https://www.wallpaperflare.com/search?wallpaper=desert
 - The images used for the books on the articles page were taking from their rlevant shop postings at https://amazon.co.uk and https://www.abebooks.co.uk/ 
