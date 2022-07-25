@@ -2,7 +2,7 @@
 Earth's Legacy is a historcial website, designed as a hub of information on the worlds oldest temples. Historians, Students, Teachers and Hobbyists may find this sight useful. 
 There are 3 pages; a homepage with detailed content on Gobekli Tepe, the oldest known temple in the world. The next page features a timeline, with images and information on the eight oldest temples after Gobekli Tepe, from this page you can travel to the relevant wikipedia entries for further information on each temple. The final page is a gallery of books all focused on Gobekli Tepe, an interested reader can follow this page to the relevant online shops to purchase the book. 
 
-![Responsive ](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Responsive ](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/Responsivemockup.png)
 
 ## Features 
 
