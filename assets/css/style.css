@@ -79,6 +79,7 @@ header a h1 {
     letter-spacing: 2px;
     color: #111518;
     background-color: #c2b280;
+    padding-left: 15px;
 }
 
 .title {
@@ -535,6 +536,10 @@ p.amazon {
 
 /* media querie: index page on screens between 1025px and 1280px wide (laptops, desktops) */
 @media (min-width: 1025px) and (max-width: 1280px) {
+    nav {
+        float: left;
+    }
+
     .tepe-vid-content {
         display: block;
     }
@@ -594,6 +599,17 @@ p.amazon {
 
 /* media querie: index page on screens between 768px and 1024px wide (tablets, ipads) */
 @media (min-width: 768px) and (max-width: 1024px) {
+    #navi {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #navi li {
+        display: inline-block;
+
+    }
+
     .tepe-vid-content {
         display: block;
     }
@@ -653,6 +669,10 @@ p.amazon {
 
 /* media querie: index page on screens between 481px and 767px wide (tablets, mobiles in landscape) */
 @media (min-width: 481px) and (max-width: 767px) {
+    nav {
+        float: left;
+    }
+
     .tepe-vid-content {
         display: block;
     }
@@ -712,6 +732,10 @@ p.amazon {
 
 /* media querie: index page on screens between 320px and 480px wide (smartphones, mobiles) */
 @media (min-width: 320px) and (max-width: 480px) {
+    nav {
+        float: left;
+    }
+
     .tepe-vid-content {
         display: block;
     }
@@ -903,6 +927,7 @@ p.amazon {
 /* media querie: timeline on screens between 320px and 480px wide (smartphones, mobiles) */
 @media (min-width: 320px) and (max-width: 480px) {
     nav {
+        float: left;
         font-size: large;
         letter-spacing: 0;
     }
@@ -1025,6 +1050,11 @@ p.amazon {
     #book-links-two {
         column-count: 1;
         margin: 0px;
+        margin-top: -100px;
+    }
+
+    .centerme {
+        height: 390px;
     }
 }
 
