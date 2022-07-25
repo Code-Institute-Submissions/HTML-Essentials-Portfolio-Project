@@ -19,22 +19,22 @@ Below is a detailed explanantion of the various features built into the website,
 
 - __Landing page video and text content__
 
-  - Explanation
-  - Value
+  - This section shows some text either side of an iframe dispalying a video courtesy of the National Geogrpahic Youtube channel. The video is a snip from an episode of Ancient Aliens focusing on Gobekli Tepe. Either side of the video are boxes of text containing some more factual information sourced from online resources. 
+  - The user will find this area valuable as it contians a broad range of information on Gobekli Tepe and introudces some theories and hypothesis surrounding the temples history. This may work well to capture the users interest. This video works well to introduce the Temple from a more 'alternative history' perspective, where as the text content is a more academic, factual resource. Providing both the hard facts and the fun.
 
 ![Landing page video Content](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/landingcontent.png)
 
 - __First Call to Action__
 
-  - Explanation
-  - Value
+  - The first call to action is a button that asks the user a rhetorical question, are they interested? If the answer is yes the user will click this button, at which point they will be taken to the articles page of the site, from this area they can research and potentially purchase a book.
+  - This button has value in capturing the user, drawing them further into the site. If this site was built to receive some kind of commission via users purchasing a book through the links on the articles page, this would be a very important feature, enabling that commission stream. If this project was developed further, this call to action could take the user to our own online store. 
 
 ![Additonal reading](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/ctaone.png)
 
 - __Gallery of images__
 
-  - Explanation
-  - Value
+  - The gallery area of the landing page acts almost as a 'Plan B' perhaps the user was interested in the initail content, but not particularly in the Gobekli Tepe Temple itself. Perhaps they are a student or teacher researching the topic of Ancient Temples. Well Gobekli Tepe was a great place to start, being the oldest known temple in the world. The gallery shows images of this temple giving users more context and encouraging their imaginations. Along with the images is a second Call-to-action button, which when clicked, shall navigate users to the timeline page of the website. On this page they can find addiitonal information and visual representations of the following 8 oldest temples in the world. Each icon on the timeline is an anchor that will open that temples relevant wikipedia page in a second tab.
+  - As stated above, the images provide the usr with more context on the subject of focus, Gobekli Tepe. The images of both night and day, various angles and notable discoveries at the sight of Gobekli Tepe feed the users imagination as they begin to construct a mental-picture of the sight. This should draw them further into the content of the webpage, the call to action then locks on to this intrigue and directs it towards the timeline page. If this project was developed further, this timeline would work as an interective learning resource for students, teachers and amateur historians alike. From this area you can find some basic information on various temples and visual representations of them all, which act as links to the relevant wikipedia entries. These could be developed into links for various seperate webpages built into the website itself, featuring content similar to that of the landing page instead of directing the user away to a potential competitor. These seperate pages could have intergration with travel estores, allowing the user to search local holidays, flights and excursions at each of these historical sights. A additional opportunity to build in a commission stream of some kind. 
   
 ![Image gallery](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/gallery.png)
 
@@ -98,7 +98,7 @@ The live link can be found here - https://whlw27.github.io/HTML-Essentials-Portf
 - The text for the Home page was taken from https://www.smithsonianmag.com/history/gobekli-tepe-the-worlds-first-temple-83613665/ and https://whc.unesco.org/en/list/1572/
 - The video content on the homepage is from youtube via the National History channel https://www.youtube.com/watch?v=A3aBN2QGn6w
 - Guidance on how to build the timeline structure https://www.w3schools.com/howto/howto_css_timeline.asp
-- Guidance on the :after Pusedo class was found https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+- Guidance on the :after Psuedo class was found https://developer.mozilla.org/en-US/docs/Web/CSS/::after
 - The icons across the website were taken from [Font Awesome](https://fontawesome.com/)
 - The website fonts are courtesy of Google Fonts https://fonts.google.com/about
 
