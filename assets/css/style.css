@@ -186,7 +186,7 @@ iframe {
     background-color: #c2b280;
 }
 
-#vid-breaker {
+.vid-breaker {
     width: 30px;
     color: #d3d3d3;
 }
@@ -582,7 +582,7 @@ p.amazon {
         position: relative;
     }
 
-    #vid-breaker {
+    .vid-breaker {
         opacity: 0;
     }
 
@@ -652,7 +652,7 @@ p.amazon {
         position: relative;
     }
 
-    #vid-breaker {
+    .vid-breaker {
         opacity: 0;
     }
 
@@ -715,7 +715,7 @@ p.amazon {
         position: relative;
     }
 
-    #vid-breaker {
+    .vid-breaker {
         opacity: 0;
     }
 
@@ -777,7 +777,7 @@ p.amazon {
         position: relative;
     }
 
-    #vid-breaker {
+    .vid-breaker {
         opacity: 0;
     }
 
@@ -1067,7 +1067,7 @@ p.amazon {
     }
 
     .centerme {
-        height: 390px;
+        height: 80px;
     }
 }
 
