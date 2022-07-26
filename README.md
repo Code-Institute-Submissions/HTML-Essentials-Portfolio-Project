@@ -40,8 +40,8 @@ Below is a detailed explanantion of the various features built into the website,
 
 - __The Footer__ 
 
-  - Explanation
-  - Value
+  - In this section of the page, which is featured across the whole website, the user can find 3 useful links. A link that will load the wikipedia database of the oldest known buildings in the world, a link that will open the amazon store's search results for Gobekli Tepe and a final link that will load the youtube search results again for Gobekli Tepe. All three links open in a seperate tab and are designed to point the user in the direction of additional external resources.
+  - The value in these links is that users can digest the content of the project, then be placed in some of the best locations to find additional information on the topic of focus, Gobeklit Tepe and ancient structures. Students and Teachers would find this section of most use, if the website was compared to a disseration, the footer would be the 'foot notes' providing the user with external resource to provide additional context to their understanding of the topic. 
 
 ![Footer](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/footer.png)
 
