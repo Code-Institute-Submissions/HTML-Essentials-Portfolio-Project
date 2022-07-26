@@ -43,7 +43,7 @@ Below is a detailed explanantion of the various features built into the website,
   - Explanation
   - Value
 
-![Footer](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/image.png)
+![Footer](https://github.com/WHLW27/HTML-Essentials-Portfolio-Project/blob/main/assets/images/readme/footer.png)
 
 - __Timeline__
 

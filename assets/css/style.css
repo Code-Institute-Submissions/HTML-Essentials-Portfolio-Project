@@ -128,7 +128,6 @@ nav {
 }
 
 #text-upper {
-    /* width: 300px; */
     height: 450px;
     padding: 12px;
     border-radius: 6px;
@@ -207,6 +206,21 @@ iframe {
 /* footer style  */
 footer {
     background-color: #c2b280;
+    /* height: 50px; */
+}
+
+.weblinks {
+    text-align: center;
+}
+
+.weblinks > li {
+    display: inline;
+}
+
+.weblinks i {
+    font-size: 170%;
+    margin: 1%;
+    color: #0a0a0a
 }
 
 /* timeline styling */
