@@ -73,9 +73,9 @@ Below is a detailed explanation of the testing and deployment process of this pr
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]()
+  - No errors were returned when passing through the official W3C validator - https://validator.w3.org/
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official Jigsaw validator - https://jigsaw.w3.org/css-validator/
 
 ### Unfixed Bugs
 
