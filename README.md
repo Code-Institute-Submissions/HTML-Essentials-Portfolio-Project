@@ -79,7 +79,7 @@ Below is a detailed explanation of the testing and deployment process of this pr
 
 ### Unfixed Bugs
 
-Difficulty making text bold whilst keeping the background image's opacity. 
+Regarding the Div's that build the various timeline 'panels'. I had difficulty making the text bold and highlighted whilst keeping the background image's opacity to generate a clear contrast. I struggled to find a clear method to address this through just CSS and HTML and decided it would be best to place the text alongside the image instead of on top.  
 
 ## Deployment
 
